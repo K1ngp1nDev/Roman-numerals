@@ -52,7 +52,7 @@ local function convert(path)
 
 	for line in io.lines("arab.txt") do
 		line = tonumber(line)
-		io.write(arabToRoman(line)..'\n')
+		io.write(arabToRoman(line) .. '\n')
 	end
 	file:close()
 end
